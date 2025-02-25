@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url("Giarek-font.otf");
+}
+
+@font-face {
+    font-family: tagline-font;
+    src: url("Awendela Beloved.ttf");
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 550px;
+    height: 700px;
+    margin: 50px 0px;
+    background-color: rgb(163, 154, 154);
+    box-shadow: 0px 0px 3px rgb(77 73 75), 0px 0px 70px rgb(229 200 211);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cover-div {
+    height: 300px;
+    width: 300px;
+    margin: 0px 0px 36px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cover {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 150px;
+    border: 8px solid black;
+    box-shadow: -1px -1px 34px rgb(45 38 33), 0px 0px 125px rgb(39 35 36);
+    object-fit: cover;
+}
+
+h2 {
+    font-family: tagline-font;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+p {
+    margin: 10px;
+    font-family: myfont;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.gif-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 1px;
+    width: 60px;
+    height: 70px;
+}
+
+.song {
+    margin: 10px;
+    border-radius: 35px;
+    box-shadow: -1px -1px 34px rgb(45 38 33), 0px 0px 125px rgb(39 35 36);
+}
